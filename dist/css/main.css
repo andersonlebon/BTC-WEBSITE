@@ -1,1 +1,101 @@
-/* No CSS */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+header .top-navbar #logo {
+  color: #191919;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+header .top-navbar-contact {
+  display: flex;
+  align-items: center;
+  line-height: 15px;
+}
+
+header .top-navbar-contact i {
+  margin-right: 15px;
+  color: #fd5f00;
+  font-size: 25px;
+}
+
+header .top-navbar-contact-name {
+  color: #191919;
+  font-weight: bold;
+}
+
+header .top-navbar-contact .email {
+  font-size: 15px;
+  color: #646464;
+}
+
+header .top-navbar .apply-btn {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+header .top-navbar .apply-btn button {
+  border: none;
+  width: 120px;
+  height: 50px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #fd5f00;
+}
+
+header .main-navbar {
+  margin-top: 10px;
+  width: 100%;
+  background-color: #0d1128;
+  padding: 10px 20px;
+}
+
+header .main-navbar .hamburger-btn {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  height: 50px;
+  align-items: center;
+}
+
+header .main-navbar .hamburger-btn button {
+  border: none;
+  height: 35px;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+}
+
+header .main-navbar .hamburger-btn button i {
+  color: #737583;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+}
+
+header .main-navbar .hamburger-btn button i span {
+  margin-left: 5px;
+  font-size: 18px;
+}
